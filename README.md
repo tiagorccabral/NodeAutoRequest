@@ -5,7 +5,7 @@ Para rodar esse código, é necessário possuir **node** instalado na máquina: 
 
 Na pasta principal do projeto, basta digitar `node server.js`
 
-Modificar as seguinte linhas para alterar o tempo entre as requisições, tempo de espera em caso de erro, e tempo de espera antes de lançar o erro, respectivamente: 
+Modificar as seguinte linhas do arquivo **server.js** para alterar o tempo entre as requisições, tempo de espera em caso de erro, e tempo de espera antes de lançar o erro, respectivamente: 
 
 SLEEP_TIME = 15000;
 ERROR_SLEEP_TIME = 60000;
